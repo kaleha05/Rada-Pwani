@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949055395132",
+    "project_id": "rada-pwani",
+    "storage_bucket": "rada-pwani.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949055395132:android:84c49c508e2a1e9803ba39",
+        "android_client_info": {
+          "package_name": "com.pwani.rada_pwani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949055395132-pli39boepjph064ci8oqhfttretvfsp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANECglEP1XEMWU-0wvicq84FdfOa2VLUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949055395132-pli39boepjph064ci8oqhfttretvfsp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
