@@ -12,10 +12,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: const EdgeInsets.symmetric(
-          vertical: 70.0,
-          horizontal: 50.0
-        ),
+        padding: const EdgeInsets.symmetric(vertical: 70.0, horizontal: 50.0),
         child: Column(
           children: const <Widget>[
             Center(
@@ -26,6 +23,22 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             Text('Login'),
+            TextField(
+              decoration: InputDecoration(labelText: 'Email Address'),
+            ),
+            TextField(
+              decoration: InputDecoration(labelText: 'Password'),
+            ),
+            Text('Forgot password?'),
+            ElevatedButton(
+              onPressed: null,
+              child: Text('Login'),
+            ),
+            Text('OR'),
+            ElevatedButton(
+              onPressed: null,
+              child: Text('Sign up'),
+            )
           ],
         ),
       ),
